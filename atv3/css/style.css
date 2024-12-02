@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#pagina{
+    border: 1px solid black;
+    width: 700;
+    height: 500px;
+}
+
+header{
+    border: 1px solid black;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(206, 206, 206);
+    text-align: center;
+    font-weight: bold;
+}
+
+nav{
+    border: 1px solid black;
+    width: 100%;
+    height: 22px;
+    background-color: white;
+    font-weight: bold;
+}
+
+main{
+    border: 1px solid black;
+    width: 100%;
+    height: 400px;
+}
+
+.cols {
+    border: 1px solid black;
+    height: 100%;
+    float: left;
+    padding: 10px;
+}
+
+#col1{
+    border: 1px solid black;
+    width: 20%;
+    height:100%;
+    float:left;
+    padding: 10px;
+}
+
+#col2{
+    border: 1px solid black;
+    width: 60%;
+    height:100%;
+    float:left;
+}
+
+#col3{
+    border: 1px solid black;
+    width: 20%;
+    height:100%;
+    float:left;
+}
+
+footer{
+    border: 2px solid black;
+    width: 100%;
+    height: 20px;
+    clear: both;
+}
+
+#spam3 {
+    background-color: rgb(206, 206, 206);
+}
+
+#footer1 {
+    background-color: white;
+    height: 35px;
+    text-align: center;
+}
+
+#footer2 {
+    background-color:  rgb(206, 206, 206);
+    font-weight: bold;
+    height: 25px;
+}
+
