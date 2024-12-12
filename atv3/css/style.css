@@ -68,10 +68,20 @@ main{
 
 #section1 {
     border: 1px solid black;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #section2 {
     border: 1px solid black dotted;
+    height: 45%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer{
