@@ -15,8 +15,8 @@ header{
     width: 100%;
     height: 60px;
     background-color: rgb(206, 206, 206);
-    text-align: center;
     font-weight: bold;
+    text-align: center;
 }
 
 nav{
@@ -40,37 +40,26 @@ main{
     padding: 10px;
 }
 
+#spam3 {
+    background-color: rgb(206, 206, 206);
+}
+
 #col1{
-    border: 1px solid black;
     width: 20%;
-    height:100%;
-    float:left;
-    padding: 10px;
 }
 
 #col2{
-    border: 1px solid black;
     width: 60%;
-    height:100%;
-    float:left;
 }
 
 #col3{
-    border: 1px solid black;
     width: 20%;
-    height:100%;
-    float:left;
 }
 
 footer{
     border: 2px solid black;
     width: 100%;
-    height: 20px;
     clear: both;
-}
-
-#spam3 {
-    background-color: rgb(206, 206, 206);
 }
 
 #footer1 {
@@ -81,7 +70,7 @@ footer{
 
 #footer2 {
     background-color:  rgb(206, 206, 206);
-    font-weight: bold;
     height: 25px;
+    font-weight: bold;
 }
 
