@@ -66,6 +66,14 @@ main{
     width: 15%;
 }
 
+#col3div1 {
+    border: 1px solid black;
+}
+
+#col3div2 {
+    border: 1px solid black;
+}
+
 footer{
     border: 2px solid black;
     width: 100%;
