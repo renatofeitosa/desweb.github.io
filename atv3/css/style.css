@@ -77,6 +77,7 @@ main{
 
 #col3div2 {
     border: 1px solid black;
+    border-top: dotted;
     width: 150px;
     height: 300px;
     display: flex;
