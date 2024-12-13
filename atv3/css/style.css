@@ -75,6 +75,11 @@ main{
     justify-content: space-between;
 }
 
+#separacao {
+    height: 2px; 
+    background-color: black;
+}
+
 #section2 {
     border: 1px solid black dotted;
     height: 45%;
