@@ -75,6 +75,17 @@ main{
     justify-content: space-between;
 }
 
+label {
+    display: inline-block; 
+    width: 80px;
+    text-align: right;
+}
+
+input {
+    display: inline-block; 
+    margin-bottom: 10px; 
+}
+
 #col3div2 {
     border: 1px solid black;
     border-top: dotted;
