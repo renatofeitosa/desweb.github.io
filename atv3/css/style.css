@@ -98,7 +98,8 @@ input {
 
 #botao {
     width: 75px;
-    align-items: left;
+    align-items: right;
+    font-weight: bold;
 }
 
 #col3div2 {
