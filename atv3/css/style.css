@@ -84,6 +84,7 @@ label {
 input {
     display: inline-block; 
     margin-bottom: 10px; 
+    width: 30px;
 }
 
 #col3div2 {
