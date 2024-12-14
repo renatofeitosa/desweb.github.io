@@ -80,10 +80,11 @@ main{
 label {
     width: 80px;
     text-align: right;
+    font-weight: bold;
 }
 
 input {
-    width: 50px;
+    width: 60px;
 }
 
 #col3div2 {
