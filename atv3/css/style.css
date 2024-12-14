@@ -74,7 +74,7 @@ main{
     flex-direction: column;
     justify-content: space-between;
     align-items: left;
-    margin-botton: 10px;
+    margin-botton: 5px;
 }
 
 label {
@@ -84,7 +84,7 @@ label {
 }
 
 input {
-    width: 60px;
+    width: 70px;
 }
 
 #col3div2 {
