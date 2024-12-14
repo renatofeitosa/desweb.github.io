@@ -73,7 +73,6 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: left;
     margin-bottom: 5px;
 }
 
@@ -87,10 +86,6 @@ input {
     width: 75px;
 }
 
-#lembrar {
-    align-items: left;
-}
-
 #labellembrar {
     text-align: center;
     font-weight: normal;
@@ -98,7 +93,6 @@ input {
 
 #botao {
     width: 75px;
-    align-items: right;
     font-weight: bold;
 }
 
