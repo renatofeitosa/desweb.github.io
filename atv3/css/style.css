@@ -73,7 +73,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
     margin-botton: 10px;
 }
 
@@ -81,6 +81,11 @@ label {
     width: 80px;
     text-align: right;
 }
+
+input {
+    width: 50px;
+}
+
 #col3div2 {
     border: 1px solid black;
     border-top: dotted;
