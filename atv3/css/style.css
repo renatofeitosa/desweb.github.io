@@ -88,11 +88,11 @@ input {
 }
 
 #lembrar {
-    text-align: left;
+    align-items: left;
 }
 
 #labellembrar {
-    text-align: left;
+    text-align: right;
 }
 
 #col3div2 {
