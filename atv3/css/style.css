@@ -74,7 +74,7 @@ main{
     flex-direction: column;
     justify-content: space-between;
     align-items: left;
-    margin-botton: 5px;
+    margin-bottom: 5px;
 }
 
 label {
