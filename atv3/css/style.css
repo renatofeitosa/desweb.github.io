@@ -87,6 +87,11 @@ input {
     width: 75px;
 }
 
+#col3div1div2 {
+    font-weight: normal;
+    align-items: left
+}
+
 #col3div2 {
     border: 1px solid black;
     border-top: dotted;
