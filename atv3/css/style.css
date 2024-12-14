@@ -87,6 +87,10 @@ input {
     width: 75px;
 }
 
+#lembrar {
+    text-align: left;
+}
+
 #col3div2 {
     border: 1px solid black;
     border-top: dotted;
