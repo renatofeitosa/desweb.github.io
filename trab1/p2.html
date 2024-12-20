@@ -31,19 +31,18 @@
     <section id="section4">
         <h2 id="h2section4">Entre em contato conosco</h2>
         
-        
         <form>
             <fieldset>
                 <legend>Descrição do pedido</legend>
-                <label for="categoria">Categoria do Pedido</label><br>
+                <label>Categoria do Pedido</label><br>
                 <input type="checkbox" id="novfun">
-                <label for="novfun">Nova funcionalidade</label>
+                <label>Nova funcionalidade</label>
                 <input type="checkbox" id="altfun">
-                <label for="altfun">Alteração em funcionalidade existente</label>
+                <label>Alteração em funcionalidade existente</label>
                 <input type="checkbox" id="suptec">
-                <label for="suptec">Suporte técnico</label>
+                <label>Suporte técnico</label>
                 <input type="checkbox" id="des">
-                <label for="des">Design</label><br><br>
+                <label>Design</label><br><br>
 
                 <label for="prazo">Prazo do Pedido</label><br>
                 <input type="radio" id="cri">
@@ -52,15 +51,52 @@
                 <label for="imp">Importante</label>
                 <input type="radio" id="sempra">
                 <label for="sempra">Sem prazo definido</label><br>
-                <textarea></textarea>
+                <textarea rows="10%" cols="125%" placeholder="Descreva seu pedido"></textarea>
 
-                <button type="button">Enviar</button>
-                <button type="reset">Limpar tudo</button>
             </fieldset>
 
             <fieldset>
                 <legend>Informações pessoais</legend>
+                <label>Nome:</label>
+                <input type="text" id="nome" placeholder="Digite seu nome completo"><br>
+                <label>Telefone:</label>
+                <input type="number" placeholder="Digite seu telefone"><br>
+                <label>Email:</label>
+                <input type="text" placeholder="Digite seu email">
+        
+                <label>Estado:</label>
+                <select>
+                    <option value="acre">Acre</option>
+                    <option value="alagoas">Alagoas</option>
+                    <option value="amapa">Amapá</option>
+                    <option value="amazonas">Amazonas</option>
+                    <option value="bahia">Bahia</option>
+                    <option value="ceara">Ceará</option>
+                    <option value="distrito_federal">Distrito Federal</option>
+                    <option value="espirito_santo">Espírito Santo</option>
+                    <option value="goias">Goiás</option>
+                    <option value="maranhao">Maranhão</option>
+                    <option value="mato_grosso">Mato Grosso</option>
+                    <option value="mato_grosso_do_sul">Mato Grosso do Sul</option>
+                    <option value="minas_gerais">Minas Gerais</option>
+                    <option value="para">Pará</option>
+                    <option value="paraiba">Paraíba</option>
+                    <option value="parana">Paraná</option>
+                    <option value="pernambuco">Pernambuco</option>
+                    <option value="piaui">Piauí</option>
+                    <option value="rio_de_janeiro">Rio de Janeiro</option>
+                    <option value="rio_grande_do_norte">Rio Grande do Norte</option>
+                    <option value="rio_grande_do_sul">Rio Grande do Sul</option>
+                    <option value="rondonia">Rondônia</option>
+                    <option value="roraima">Roraima</option>
+                    <option value="santa_catarina">Santa Catarina</option>
+                    <option value="sao_paulo">São Paulo</option>
+                    <option value="sergipe">Sergipe</option>
+                    <option value="tocantins">Tocantins</option>
+                </select><br>
 
+                <button type="button">Enviar</button>
+                <button type="reset">Limpar tudo</button>
             </fieldset>
         </form>
     </section>
