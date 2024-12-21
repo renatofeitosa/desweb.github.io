@@ -8,14 +8,17 @@ body {
 }
 
 
-header {
+header, nav, aside, footer {
     width: 100%;
-    height: 20vh;
     padding: 10px;
     margin: -5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    height: 20vh;
     border: 2px solid black;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 1.8vw;
     border-radius: 15px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
@@ -30,14 +33,10 @@ header {
 }
 
 nav {
-    width: 100%;
     height: 12vh;
-    padding: 10px;
-    margin: -5px;
     margin-top: 20px;
     border: none;
     text-align: left;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 2vw;
 }
 
@@ -45,7 +44,6 @@ aside {
     width: 43%;
     height: auto;
     padding: 5px;
-    margin: -5px;
     margin-left: 55vw;
     margin-top: -14vh;
     border: 1px solid black;
@@ -56,7 +54,7 @@ aside {
     border-radius: 15px;
 }
 
-#img1 {
+#img1, #img2 {
     width: 20%;
     height: auto;
     position: absolute;
@@ -65,6 +63,15 @@ aside {
 }
 
 #comentandre {
+    margin-bottom: 2%;
+    margin-top: 3vh;
+}
+
+#img2 {
+    top: 105vh;
+}
+
+#comentbruna, #comentandre {
     width: 50%;
     height: auto;
     padding: 10px;
@@ -72,39 +79,17 @@ aside {
     margin-bottom: 2%;
     margin-top: 3vw;
     margin-left: 5vw;
-    border: none;
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2vw;
 }
 
-#img2 {
-    width: 20%;
-    height: auto;
-    position: absolute;
-    top: 105vh;
-    left: 65%;
-}
-
-#comentbruna {
-    width: 50%;
-    height: auto;
-    padding: 10px;
-    margin: -5px;
-    margin-left: 5vw;
-    border: none;
-    text-align: justify;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2vw;
-}
-
-section {
+section, #section2 {
     width: 100%;
     height: auto;
     padding: 10px;
     margin: 9vw;
     margin-left: -5px;
-    border: none;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 2vw;
@@ -113,17 +98,10 @@ section {
 }
 
 #section2 {
-    width: 100%;
-    height: auto;
-    padding: 10px;
-    margin: 9vw;
-    margin-left: -5px;
     margin-bottom: 5%;
     margin-top: -10vh;
-    border: none;
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2vw;
 }
 
 #h2section2 {
@@ -132,24 +110,19 @@ section {
 }
 
 footer {
-    width: 100%;
     height: 5vh;
-    padding: 10px;
-    margin: -5px;
     margin-top: 10px;
     border: none;
     text-align: justify;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 1.5vw;
     font-weight: bold;
 }
 
 #section3 {
     height: 115vh;
-    margin-bottom: 5%;
 }
 
-#img5 {
+#img5, #img6, #img7 {
     width: 30%;
     height: 25%;
     position: absolute;
@@ -158,62 +131,35 @@ footer {
 }
 
 #img6 {
-    width: 30%;
-    height: 25%;
     margin-top: 1%;
-    position: absolute;
     top: 105vh;
-    left: 15%;
 }
 
 #img7 {
-    width: 30%;
-    height: 25%;
     margin-top: 2%;
-    position: absolute;
     top: 140vh;
-    left: 15%;
 }
 
-#comentatv1 {
+#comentatv1, #comentatv2, #comentatv3 {
     width: 50%;
     height: auto;
     padding: 10px;
     margin: -5px;
     margin-left: 75vh;
-    border: none;
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2vw;
 }
 
 #comentatv2 {
-    width: 50%;
-    height: auto;
-    padding: 10px;
-    margin: -5px;
-    margin-left: 75vh;
     margin-top: 25vh;
-    border: none;
-    text-align: justify;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2vw;
 }
 
 #comentatv3 {
-    width: 50%;
-    height: auto;
-    padding: 10px;
-    margin: -5px;
-    margin-left: 75vh;
     margin-top: 24vh;
-    border: none;
-    text-align: justify;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2vw;
 }
 
-#section4 {
+#section3, #section4, #section5 {
     margin-bottom: 5%;
 }
 
@@ -223,10 +169,6 @@ footer {
 
 #nome {
     margin-left: 2%;
-}
-
-#section5 {
-    margin-bottom: 5%;
 }
 
 #fieldset2 {
