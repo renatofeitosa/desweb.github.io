@@ -16,7 +16,7 @@ header {
     border: 2px solid black;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2vw;
+    font-size: 1.8vw;
     border-radius: 15px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
@@ -47,7 +47,7 @@ aside {
     padding: 5px;
     margin: -5px;
     margin-left: 55vw;
-    margin-top: -115px;
+    margin-top: -14vh;
     border: 1px solid black;
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -193,7 +193,7 @@ footer {
     padding: 10px;
     margin: -5px;
     margin-left: 75vh;
-    margin-top: 200px;
+    margin-top: 25vh;
     border: none;
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -206,7 +206,7 @@ footer {
     padding: 10px;
     margin: -5px;
     margin-left: 75vh;
-    margin-top: 200px;
+    margin-top: 24vh;
     border: none;
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -217,6 +217,10 @@ footer {
     margin-bottom: 5%;
 }
 
+#fieldset1 {
+    margin-left: -5vh;
+}
+
 #nome {
     margin-left: 2%;
 }
@@ -225,8 +229,8 @@ footer {
     margin-bottom: 5%;
 }
 
-#fieldset {
-    margin-left: 15%;
+#fieldset2 {
+    margin-left: 20vh;
 }
 
 #legend {
