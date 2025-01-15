@@ -31,15 +31,15 @@ header, #header2 {
 }
 
 aside {
-    width: 43%;
-    height: 50vh;
+    width: 400px;
+    height: 90%;
     padding: 5px;
-    margin-left: 55vw;
-    margin-top: -42vh;
+    margin-left: 700px;
+    margin-top: -320px;
     border: 1px solid black;
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2vw;
+    font-size: 22px;
     font-weight: bold;
     border-radius: 15px;
 }
