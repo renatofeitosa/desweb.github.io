@@ -8,7 +8,6 @@ body {
     background-attachment: fixed;
 }
 
-
 header, aside, footer {
     width: 100%;
     padding: 10px;
@@ -74,29 +73,11 @@ div {
     border: 2px solid black;
     border-radius: 8px; 
     cursor: pointer;
-  }
+}
 
-  table {
+table {
     margin-top: 5px;
     margin-left: 200px;
-  }
-  
-  #a1, #b2, #c4, #d5, #e6, #f7, #g8, #h9, #i10, #j1,  #a3, #b4, #c5, #d6, #e7, #f8, #g9, #h10, #i1, #j2, #a6, #b7, #c8, #d9, #e10, #div2 {
-    background-color: #F5A623;
-  }
-
-  #a2, #b3, #c6, #d7, #e8, #f9, #g10, #h1, #i2, #j3, #a4, #b5, #c7, #d8, #e9, #f10, #g1, #h2, #i3, #j4, #a8, #b9, #c10, #d1, #e2, #div3 {
-  background-color: #D96C6C;
-}
-
-#a5, #b6, #c9, #d10, #e1, #div4 {
-    background-color: #9B59B6;
-}
-
-span {
-    position: fixed;
-    top: 70vh;
-    left: 15vh;
 }
 
 #span2 {
@@ -123,5 +104,132 @@ h1 {
 
 p {
     margin-right: 5px;
+}
+
+@media (max-width: 600px) {
+    header, #header2 {
+        font-size: 5vw;
+        height: 15vh;
+    }
+    
+    aside {
+        width: 90%;
+        margin: 0;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    section {
+        font-size: 5vw;
+        height: auto;
+        margin: 5vw;
+    }
+
+    footer {
+        font-size: 4vw;
+    }
+
+    table {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    div {
+        width: 20px;
+        height: 20px;
+    }
+
+    span {
+        top: 75vh;
+        left: 10vw;
+    }
+
+    #span2 {
+        left: 5vw;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1024px) {
+    header, #header2 {
+        font-size: 3vw;
+        height: 18vh;
+    }
+
+    aside {
+        width: 50%;
+        margin-left: 25%;
+        font-size: 20px;
+    }
+
+    section {
+        font-size: 3vw;
+        margin: 4vw;
+    }
+
+    footer {
+        font-size: 2.5vw;
+    }
+
+    table {
+        margin-left: 50px;
+    }
+
+    div {
+        width: 30px;
+        height: 30px;
+    }
+
+    span {
+        top: 70vh;
+        left: 12vw;
+    }
+
+    #span2 {
+        left: 3vw;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1025px) {
+    header, #header2 {
+        font-size: 1.8vw;
+        height: 20vh;
+    }
+
+    aside {
+        width: 400px;
+        margin-left: 700px;
+        margin-top: -320px;
+        font-size: 22px;
+    }
+
+    section {
+        font-size: 2vw;
+        margin: 9vw;
+    }
+
+    footer {
+        font-size: 1.5vw;
+    }
+
+    table {
+        margin-left: 200px;
+    }
+
+    div {
+        width: 25px;
+        height: 25px;
+    }
+
+    span {
+        top: 70vh;
+        left: 15vh;
+    }
+
+    #span2 {
+        left: 1vh;
+        font-size: 16px;
+    }
 }
 
