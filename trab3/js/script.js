@@ -1,7 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
     const mesas = document.querySelectorAll("td div");
-    const iptData = document.querySelector("#iptData");  
-    const iptHora = document.querySelector("#iptHora");  
     const bttEnviar = document.querySelector("#bttEnviar");  
     
     mesas.forEach(mesa => {
