@@ -3,11 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const iptData = document.querySelector("#iptData");  
     const iptHora = document.querySelector("#iptHora");  
     const bttEnviar = document.querySelector("#bttEnviar");  
-
-    const dataAtual = new Date().toISOString().split("T")[0]; 
-    const agora = new Date();
-    const horaAtual = `${String(agora.getHours()).padStart(2, "0")}:${String(agora.getMinutes()).padStart(2, "0")}`; 
-
+    
     mesas.forEach(mesa => {
         atualizarTextoMesa(mesa); 
     });
@@ -44,7 +40,4 @@ document.addEventListener("DOMContentLoaded", () => {
             alert("Reserva confirmada!"); 
         });
     }
-
-    if (iptData) iptData.value = dataAtual;
-    if (iptHora) iptHora.value = horaAtual;
 });
